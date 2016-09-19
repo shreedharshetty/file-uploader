@@ -1,0 +1,18 @@
+html
+  head
+    title File uploader directive app
+    link(rel="stylesheet", href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="css/style.css")
+  body
+    div.container-fluid(ng-app="directiveApp")
+      .row
+        .col-md-12
+          h3 File upload
+          ng-file-upload(wistia-pass="XXXXXXXXXX")
+    script(src="bower_components/jquery/dist/jquery.min.js")
+    script(src="bower_components/jquery-ui/ui/widget.js")
+    script(src="bower_components/blueimp-file-upload/js/jquery.iframe-transport.js")
+    script(src="bower_components/blueimp-file-upload/js/jquery.fileupload.js")
+    script(src="bower_components/angular/angular.min.js")
+    script(src="bower_components/bootstrap/dist/js/bootstrap.min.js")
+    script(src="scripts/ngFileUploader.js")

@@ -7,10 +7,12 @@
 ## How to start
 `npm install -g bower` to install bower
 
+`npm install` to install dependencies
+
 `bower install` to install the dependencies
 
-`python -m SimpleHTTPServer 7000` to start the simple http server
+`node index.js` to start the simple http server
 
-open `http://localhost:7000/` in browser and start uploading files.
+open `http://localhost:3000/` in browser and start uploading files.
 
 ##Note: Please generate your own Wistia password and pass it to directive as attribute

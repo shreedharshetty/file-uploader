@@ -4,7 +4,7 @@
   directiveApp.directive('ngFileUpload', ['$timeout', '$sce', '$http', function($timeout, $sce, $http){
     return {
       restrict: 'E',
-      templateUrl: 'assets/templates/ng-upload-tmpl.html',
+      templateUrl: 'templates/ng-upload-tmpl.html',
       replace: true,
       scope: {
         id: "@",

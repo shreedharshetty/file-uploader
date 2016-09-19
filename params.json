@@ -1,6 +1,0 @@
-{
-  "name": "File-uploader",
-  "tagline": "Angular directive to upload videos to Wistia using Blueimp jQuery Uploader.",
-  "body": "# Blueimp Wistia Upload\r\n\r\n## Description\r\n\r\n[AngularJS](https://angularjs.org/) directive to upload videos to [Wistia](http://wistia.com/) using [Blueimp jQuery Uploader](https://github.com/blueimp/jQuery-File-Upload).\r\n\r\n## How to start\r\n`npm install -g bower` to install bower\r\n\r\n`bower install` to install the dependencies\r\n\r\n`python -m SimpleHTTPServer 7000` to start the simple http server\r\n\r\nopen `http://localhost:7000/` in browser and start uploading files.\r\n\r\n##Note: Please generate your own Wistia password and pass it to directive as attribute\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
