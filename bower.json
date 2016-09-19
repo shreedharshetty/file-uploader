@@ -1,0 +1,23 @@
+{
+  "name": "image-uploader",
+  "authors": [
+    "Shreedharshetty <shreedhar888@gmail.com>"
+  ],
+  "description": "[AngularJS](https://angularjs.org/) directive to upload videos to [Wistia](http://wistia.com/) using [Blueimp jQuery Uploader](https://github.com/blueimp/jQuery-File-Upload).",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "Wistia",
+    "Blueimp",
+    "jQuery",
+    "Uploader"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "blueimp-file-upload": "^9.12.5",
+    "jquery-ui": "jquery.ui#^1.12.1"
+  }
+}

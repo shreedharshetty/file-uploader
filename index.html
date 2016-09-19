@@ -3,9 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Image uploader directive app</title>
+  <!-- CSS goes here -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  
+    <!-- html goes here -->
+    <div class="container-fluid" ng-app="directiveApp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>File upload</h3>
+          <ng-file-upload wistia-pass="XXXXXXXXXX" />
+        </div>
+      </div>
+    </div>
+
+    <!-- libs goes here -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/ui/widget.js"></script>
+    <script src="bower_components/blueimp-file-upload/js/jquery.iframe-transport.js"></script>
+    <script src="bower_components/blueimp-file-upload/js/jquery.fileupload.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- scripts goes here -->
+    <script src="assets/scripts/ngFileUploader.js"></script>
+  </body> 
 </body>
 </html>
