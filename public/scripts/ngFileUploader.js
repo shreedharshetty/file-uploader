@@ -25,7 +25,7 @@
             scope.status = response.data.status || '';
             //check if the status is ready, set url for iframe
             if (scope.status == 'ready'){
-              scope.url = $sce.trustAsResourceUrl('http://fast.wistia.net/embed/iframe/' + scope.hashId);
+              scope.url = $sce.trustAsResourceUrl('https://fast.wistia.net/embed/iframe/' + scope.hashId);
             } else if (scope.status != 'failed') {
               //check status every 3s
               $timeout(function(){
